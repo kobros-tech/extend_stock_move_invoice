@@ -39,6 +39,7 @@
     
     We provide a smart button in Sales Order/Purchase Order 
     that enables you to go to your created invoice directly.""",
+    'theme': 'static/description/banner.png',
     'category': 'Stock',
     'website': 'https://www.linkedin.com/in/mohamed-alkobrosly/',
     'license': "AGPL-3",
