@@ -22,7 +22,7 @@
 
 {
     'name': 'Invoice From Stock Picking Extension',
-    'version': '16.0.1.0.0',
+    'version': '16.0',
     'summary': """
     This module is an extension from Invoice From Stock Picking:
     https://apps.odoo.com/apps/modules/16.0/stock_move_invoice/#overview
