@@ -34,7 +34,7 @@ class SaleOrder(models.Model):
 
         def action_view_extended_invoice(self):
             picking = self.picking_ids
-            journals = self.env['account.move'].search([('transfer_ids', 'in', picking.id)])
+            journals = self.env['account.move'].search([('transfer_ids', 'in', picking.mapped('id'))])
             return {
             'name': 'Invoices',
             'type': 'ir.actions.act_window',
